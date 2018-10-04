@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 using simpletradingbot.src.business.strategy.movingaverage;
 using System.Collections.Generic;

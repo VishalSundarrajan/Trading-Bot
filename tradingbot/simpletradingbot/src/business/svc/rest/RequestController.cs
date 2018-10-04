@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using simpletradingbot.src.data.model.historicalprice;
 using simpletradingbot.src.data.model.currentprice;
 
+//Restcontroller
 namespace simpletradingbot.src.business.svc.rest
 {
     public class RequestController

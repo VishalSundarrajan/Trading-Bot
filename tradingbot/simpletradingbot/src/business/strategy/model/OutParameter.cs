@@ -1,4 +1,5 @@
-﻿namespace simpletradingbot.src.business.strategy.model
+﻿//
+namespace simpletradingbot.src.business.strategy.model
 {
     public class OutParameter
     {

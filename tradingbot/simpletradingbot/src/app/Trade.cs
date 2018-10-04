@@ -10,7 +10,8 @@ namespace simpletradingbot.src.app
 {
     public class Trade
     {
-        public void Controller()
+        //main controller
+        public void Ccntroller()
         {
             dynamic jParsed;
             using (StreamReader r = new StreamReader("./src/resources/config.json"))

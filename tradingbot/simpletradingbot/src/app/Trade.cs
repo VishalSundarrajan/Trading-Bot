@@ -9,14 +9,9 @@ using simpletradingbot.src.business.strategy.model;
 namespace simpletradingbot.src.app
 {
     public class Trade
-<<<<<<< HEAD
     {
         //main controller
-        public void Ccntroller()
-=======
-    {
         public void Controller()
->>>>>>> 9924249880efbc682f1b00159d95acc0bff47af9
         {
             dynamic jParsed;
             using (StreamReader r = new StreamReader("./src/resources/config.json"))

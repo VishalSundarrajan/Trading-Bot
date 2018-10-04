@@ -1,8 +1,5 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 using FizzWare.NBuilder;
-
-using Newtonsoft.Json.Linq;
 using simpletradingbot.src.business.strategy;
 
 namespace SimpleBotTest.strategy.buisness

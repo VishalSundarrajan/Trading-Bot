@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Net;
 using RestSharp;
 using Newtonsoft.Json;
 using simpletradingbot.src.data.model.historicalprice;

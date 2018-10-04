@@ -1,5 +1,4 @@
-﻿using System;
-namespace simpletradingbot.src.data.model.currentprice
+﻿namespace simpletradingbot.src.data.model.currentprice
 {
     public class CurrentPrice
     {

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpletradingbot", "..\..\tradingbot\simpletradingbot\simpletradingbot.csproj", "{A6DD556D-E708-4F18-8A5E-0B4892147CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBotTest", "..\..\..\TestLibrary\SimpleBotTest.csproj", "{AE3E51DE-413C-40C8-831A-14891B92DFFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6DD556D-E708-4F18-8A5E-0B4892147CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DD556D-E708-4F18-8A5E-0B4892147CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DD556D-E708-4F18-8A5E-0B4892147CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DD556D-E708-4F18-8A5E-0B4892147CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3E51DE-413C-40C8-831A-14891B92DFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3E51DE-413C-40C8-831A-14891B92DFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3E51DE-413C-40C8-831A-14891B92DFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3E51DE-413C-40C8-831A-14891B92DFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

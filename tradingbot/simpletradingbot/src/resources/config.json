@@ -1,0 +1,7 @@
+﻿{
+  "strategy" : "EMA",
+    "limit"  : "10",
+    "period": "10",
+    "period_1": "50",
+    "coins": ["BTC","ETH"]
+}

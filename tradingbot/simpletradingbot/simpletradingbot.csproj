@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="src\app\" />
+    <Folder Include="src\business\" />
+    <Folder Include="src\business\svc\" />
+    <Folder Include="src\business\svc\rest\" />
+    <Folder Include="src\business\strategy\" />
+    <Folder Include="src\business\strategy\movingaverage\" />
+    <Folder Include="src\data\" />
+    <Folder Include="src\data\model\" />
+    <Folder Include="src\data\model\historicalprice\" />
+    <Folder Include="src\data\model\currentprice\" />
+    <Folder Include="src\resources\" />
+    <Folder Include="src\business\strategy\model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.4.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="NBuilder" Version="6.0.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\resources\app.config" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.assets.cache" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.csprojAssemblyReference.cache" />
+    <None Remove="TestSimpleBot\obj\TestSimpleBot.csproj.nuget.g.props" />
+    <None Remove="TestSimpleBot\obj\TestSimpleBot.csproj.nuget.g.targets" />
+    <None Remove="TestSimpleBot\obj\project.assets.json" />
+    <None Remove="TestSimpleBot\obj\TestSimpleBot.csproj.nuget.cache" />
+    <None Remove="TestSimpleBot\bin\Debug\netcoreapp2.1\simpletradingbot.dll" />
+    <None Remove="TestSimpleBot\bin\Debug\netcoreapp2.1\simpletradingbot.pdb" />
+    <None Remove="TestSimpleBot\obj\TestSimpleBot.csproj.nuget.g.props" />
+    <None Remove="TestSimpleBot\obj\TestSimpleBot.csproj.nuget.g.targets" />
+    <None Remove="TestSimpleBot\obj\project.assets.json" />
+    <None Remove="TestSimpleBot\obj\TestSimpleBot.csproj.nuget.cache" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.assets.cache" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.csprojAssemblyReference.cache" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.csproj.CoreCompileInputs.cache" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.AssemblyInfoInputs.cache" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.dll" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.pdb" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.csproj.CopyComplete" />
+    <None Remove="TestSimpleBot\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.csproj.FileListAbsolute.txt" />
+    <None Remove="TestSimpleBot\obj\project.assets.json" />
+    <None Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.assets.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TestSimpleBot\UnitTest1.cs" />
+    <Compile Remove="TestSimpleBot\SimpleTradingbotTests.cs" />
+    <Compile Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.Program.cs" />
+    <Compile Remove="TestSimpleBot\obj\Debug\netcoreapp2.1\TestSimpleBot.AssemblyInfo.cs" />
+    <Compile Remove="TestSimpleBot\EmptyClass.cs" />
+    <Compile Remove="TestSimpleBot\MATest.cs" />
+  </ItemGroup>
+</Project>

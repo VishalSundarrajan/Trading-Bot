@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 namespace simpletradingbot.src.business.strategy.movingaverage
 {
     public class EMA : MovingAverage

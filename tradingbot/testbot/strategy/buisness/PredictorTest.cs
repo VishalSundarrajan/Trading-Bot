@@ -8,7 +8,7 @@ namespace SimpleBotTest.strategy.buisness
     {
 
         [Theory]
-        [InlineData(20,10)]
+        [InlineData(20, 10)]
         public void DecisionTest(float high, float low)
         {
 
@@ -20,9 +20,25 @@ namespace SimpleBotTest.strategy.buisness
         [Fact]
         public void TestLiveMarketPrice()
         {
-            Assert.True(new Predictor(Builder<Parameters>.CreateNew().With(x => x.Strategy = "SMA")
+            Assert.True(new Predictor(Builder<Parameters>.CreateNew().With(x => x.Strategy = "SMA").With(x => x.Coin = "BTC")
                                                   .With(x => x.Period = 10).With(x => x.Period_1 = 50)
-                                                  .With(x => x.Limit = 10).Build()).LiveMarketPrice()>0);
+                                                  .With(x => x.Limit = 10).Build()).LiveMarketPrice() > 0);
+        }
+
+        [Fact]
+        public void TestInitialForecast()
+        {
+            Assert.NotNull(new Predictor(Builder<Parameters>.CreateNew().With(x => x.Strategy = "SMA").With(x => x.Coin = "BTC")
+                                                  .With(x => x.Period = 10).With(x => x.Period_1 = 50)
+                                                  .With(x => x.Limit = 10).Build()).InitialForecast());
+        }
+
+        [Fact]
+        public void TestForeCastNextPrice()
+        {
+            Assert.NotNull(new Predictor(Builder<Parameters>.CreateNew().With(x => x.Strategy = "SMA").With(x => x.Coin = "BTC")
+                                                  .With(x => x.Period = 10).With(x => x.Period_1 = 50)
+                                                  .With(x => x.Limit = 10).Build()).InitialForecast());
         }
     }
 }

@@ -17,7 +17,7 @@ namespace SimpleBotTest.rest
         }
 
         [Theory]
-        [InlineData("ABCD")]
+        [InlineData("LTC")]
         [InlineData("BTC")]
         [InlineData("ETH")]
         [InlineData("SXC")]
@@ -27,7 +27,7 @@ namespace SimpleBotTest.rest
         }
 
         [Theory]
-        [InlineData("ABCD",10)]
+        [InlineData("LTC",10)]
         [InlineData("BTC",20)]
         [InlineData("ETH",24)]
         [InlineData("SXC",14)]
@@ -35,14 +35,6 @@ namespace SimpleBotTest.rest
         {
             RequestController rc = new RequestController("https://min-api.cryptocompare.com/data/");
             Assert.NotNull(rc.GetHistoricalData(coin,limit));
-        }
-
-        [Theory]
-        [InlineData("https://min-api.cryptocompare.com/data/")]
-        [InlineData("https://min-api.cryptocompare.com/dat/")]
-        public void TestURL(String URL){
-            RequestController rc = new RequestController(URL);
-            Assert.NotNull(rc.GetHistoricalData("BTC", 10));
         }
     }
 }

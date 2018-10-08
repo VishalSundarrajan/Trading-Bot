@@ -10,7 +10,7 @@ A simple trading bot in C# [Programming Exercise]
 
 ### How to test and run the bot
 
-Change the directory to 
+Go to the following directory,
 
 `cd trading-Bot/tradingbot/simpletradingbot`
 

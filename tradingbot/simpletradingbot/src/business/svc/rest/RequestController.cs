@@ -17,7 +17,8 @@ namespace simpletradingbot.src.business.svc.rest
             this.url = url;
         }
 
-        public RestResponse GetResponse(String url){
+        public RestResponse GetResponse(String url)
+        {
             restClient = new RestClient(url);
             return (RestResponse)restClient.Execute(new RestRequest(Method.GET));
         }

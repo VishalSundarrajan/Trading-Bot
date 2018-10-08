@@ -13,7 +13,7 @@ namespace simpletradingbot.src.business.strategy
     {
         private Parameters parameters;
         private Dictionary<String, OutParameter> coinUpdate;
-        RequestController rqstController;
+        private RequestController rqstController;
 
         public Predictor(Parameters parameters)
         {

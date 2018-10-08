@@ -6,7 +6,7 @@ A simple trading bot in C# [Programming Exercise]
 ### Requirements
 
 1. [.NET Framework core 2.1 or above](https://www.microsoft.com/net/download)
-2. [NuGet client tools](https://www.microsoft.com/en-us/nuget/install-nuget-client-tools)
+2. [NuGet client tools](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools)
 
 ### How to test and run the bot
 
@@ -22,7 +22,7 @@ To run Tests
 
  `dotnet test`
  
-or you can open the application with IDE (Visual Studio).
+or you can open the application with IDE (Visual Studio) with NuGet.
 
 
 ### Configuration 

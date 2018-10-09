@@ -51,7 +51,7 @@ Modify the config.json accordingly under resources/config.json,
   
  ##### Coins
   
-  Number of cryptocurrencies (Can be og any length)
+  Number of cryptocurrencies (Can be of any length)
     
  
  
